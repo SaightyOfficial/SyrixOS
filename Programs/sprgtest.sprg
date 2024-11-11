@@ -1,0 +1,23 @@
+{
+  
+  "data": {
+
+    "name":"TestName",
+    "main":"test",
+    "tabname":"Test Prg Name"
+  
+  },
+
+  "files": {
+
+    "test.py": {
+
+      "name":"test.py",
+      "data":"from tkinter import *\nimport SyrixOS.SysData.SPC.Creator as c\n\ntheme = c.GetTheme()\nc.initiate(c.root)\n\ndef Start():\n    root = c.NewWin(\"TestWindowPrg!!!\",True)\n    HW = Label(root,text=\"Hello world!\\nits a test program!!!\",bg=theme[\"wbgcol\"],fg=theme[\"fg\"]).pack()",
+      "path":""
+      
+    }
+    
+  }
+  
+}
